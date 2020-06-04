@@ -16,7 +16,7 @@ Afficher : Bonjour + name + , comment vas tu ?.</p>
 
 $name = "Tristan ";
 
-echo 'Bonjour ', $name, 'comment vas-tu?.';
+echo 'Bonjour ' . $name . 'comment vas-tu?.';
 
 
     ?>
