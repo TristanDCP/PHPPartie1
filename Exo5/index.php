@@ -13,7 +13,10 @@
 Donner une valeur à cette variable et l'afficher.</p>
     
     <?php
-$int = "";
+
+$age = "";
+
+settype($age, "integer");
 
 echo $int;
 
